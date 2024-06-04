@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "origin",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					}
+				],
+				"name": "callEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "callThis",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/27_Cllafunction2.sol": "Called"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 100
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/27_Cllafunction2.sol": {
+			"keccak256": "0x08b46f26b91d4ba6bf57ad1ce8095c846f2866a4e710dfe5962285a52c3666d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0b77571a87d6fe6c72effc53e0548bda6326f120113623bc549c14ba7d10be7",
+				"dweb:/ipfs/QmW7adf9PTwZjBZwejHVy85BSq9wSL37ezXTMCFrW7wnWK"
+			]
+		}
+	},
+	"version": 1
+}

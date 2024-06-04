@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_hesadecimalinputs",
+						"type": "bytes"
+					}
+				],
+				"name": "decode1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/29_AbiFuncitons.sol": "EncodeDecode"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 100
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/29_AbiFuncitons.sol": {
+			"keccak256": "0x587de5a6d50fb9e2fb6362ed92f192180d3e92b305a42c6a0a33bfa8fdcfbc06",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://06c06cb4d8f81a576b815c332029d384286dc2f271688d6eac4798f048171d07",
+				"dweb:/ipfs/QmXFgLkwmFXERUvRmrNsy6GLbrqgQFD5Fshnc2T2ZJJbjC"
+			]
+		}
+	},
+	"version": 1
+}
